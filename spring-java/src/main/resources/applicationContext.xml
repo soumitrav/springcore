@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean name="speakerRepository"
+		class="com.sample.dao.SpeakerRepositoryImpl" />
+	<bean name="speakerService"
+		class="com.sample.service.SpearkerServiceImpl" autowire="byName">
+		<!-- <property name="speakerRepository" ref="speakerRepository"/> -->
+<!-- 		<constructor-arg ref="speakerRepository" index="0"></constructor-arg> -->
+	</bean>
+</beans>
