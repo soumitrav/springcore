@@ -7,3 +7,5 @@ ZXINGQR/target/classes/com/amex/qr/zxing/qrCodeWithLogo/QrCode.class
 ZXINGQR/target/classes/com/amex/qr/zxing/write/AQRGenWrite.class
 ZXINGQR/.idea/compiler.xml
 *.class
+ZXINGQR/.idea/compiler.xml
+ZXINGQR/target/classes/com/amex/qr/zxing/write/AQRGenWrite.class
